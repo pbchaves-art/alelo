@@ -1,0 +1,6 @@
+{
+  "name": "ALELO — Administração Logística e Estoque Laboratorial Otimizado",
+  "description": "Sistema Integrado de Gestão de Prazos, Insumos e Qualidade para o Laboratório de Biologia e DNA Forense da Polícia Científica de Goiás.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

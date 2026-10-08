@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-alelo-bg: #F4F7F9;
+  --color-alelo-surface: #FFFFFF;
+  --color-alelo-primary: #123B5D;
+  --color-alelo-primary-light: #2A6F97;
+  --color-alelo-secondary: #2A9D8F;
+  --color-alelo-accent: #E9C46A;
+  --color-alelo-text: #1F2933;
+  --color-alelo-muted: #667085;
+  --color-alelo-border: #D9E1E8;
+  --color-alelo-success: #2E7D5B;
+  --color-alelo-warning: #D98E04;
+  --color-alelo-danger: #C94C4C;
+  --color-alelo-info: #3B82A0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F4F7F9;
+  color: #1F2933;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for lab tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F7F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
